@@ -1,0 +1,118 @@
+body {
+      background-image: url("assets/img/background-02.webp");
+      background-attachment: fixed;
+      background-size: cover;
+      color:antiquewhite;
+    }
+
+    .container {
+      background-color: #000000c2;
+    }
+
+    h1,h2, h3 {
+      color : rgb(69 121 157)
+    }
+
+    h2 {
+      font-family: 'warcraft', sans-serif;
+    }
+
+    h2::first-letter {
+      color:rgb(160, 160, 32);
+    }
+
+    h3 {
+      font-family: 'warcraft', sans-serif;
+    }
+
+    header {
+      font-family: 'warcraft', sans-serif;
+      background-color: #0000008c;
+      border-bottom: 1px solid rgb(160, 160, 32);
+    }
+
+    header span {
+      font-size: 1.2em;
+    }
+
+    header a:link i {
+      color : rgb(69 121 157)
+    }
+
+    header a:visited i {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    header a:hover i {
+      color : rgb(160, 160, 32);
+    }
+
+    section a:link {
+      color : rgb(160, 160, 32);
+      text-decoration : none;
+    }
+
+    section a:visited {
+      color : rgb(160, 160, 32);
+      text-decoration : none;
+    }
+
+    section a:hover {
+      color : rgb(160, 160, 32);
+      text-decoration : underline;
+    }
+
+    footer {
+      background-color: #0000008c;
+      border-top: 1px solid rgb(160, 160, 32);
+    }
+
+    footer a:link {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    footer a:visited {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    footer a:hover {
+      color : rgb(69 121 157);
+      text-decoration : underline;
+    }
+
+    .carousel-inner {
+      border: 2px solid rgb(160, 160, 32);
+    }
+
+    .modal-header {
+      border-bottom: none;
+    }
+    
+    .modal-content {
+      color: antiquewhite;
+      background-color: #000000d4;
+      border: 1px solid rgb(160, 160, 32);
+      border-radius: var(--bs-modal-border-radius);
+    }
+
+    .modal-content a:link {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    .modal-content a:visited {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    .modal-content a:hover {
+      color : rgb(69 121 157);
+      text-decoration : underline;
+    }
+
+    .modal-footer {
+      border-top: none;
+    }
