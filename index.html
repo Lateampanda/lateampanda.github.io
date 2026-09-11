@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Team Panda — Addons World of Warcraft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link href="https://fonts.cdnfonts.com/css/warcraft" rel="stylesheet">
+
+    <style>
+
+    body {
+      background-image: url("assets/img/background-02.webp");
+      background-attachment: fixed;
+      background-size: cover;
+      color:antiquewhite;
+    }
+
+    .container {
+      background-color: #000000c2;
+    }
+
+    h1,h2, h3 {
+      color : rgb(69 121 157)
+    }
+
+    h2 {
+      font-family: 'warcraft', sans-serif;
+    }
+
+    h2::first-letter {
+      color:rgb(160, 160, 32);
+    }
+
+    h3 {
+      font-family: 'warcraft', sans-serif;
+    }
+
+    header {
+      font-family: 'warcraft', sans-serif;
+      background-color: #0000008c;
+      border-bottom: 1px solid rgb(160, 160, 32);
+    }
+
+    header span {
+      font-size: 1.2em;
+    }
+
+    header a:link i {
+      color : rgb(69 121 157)
+    }
+
+    header a:visited i {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    header a:hover i {
+      color : rgb(160, 160, 32);
+    }
+
+    section a:link {
+      color : rgb(160, 160, 32);
+      text-decoration : none;
+    }
+
+    section a:visited {
+      color : rgb(160, 160, 32);
+      text-decoration : none;
+    }
+
+    section a:hover {
+      color : rgb(160, 160, 32);
+      text-decoration : underline;
+    }
+
+    footer {
+      background-color: #0000008c;
+      border-top: 1px solid rgb(160, 160, 32);
+    }
+
+    footer a:link {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    footer a:visited {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    footer a:hover {
+      color : rgb(69 121 157);
+      text-decoration : underline;
+    }
+
+    .carousel-inner {
+      border: 2px solid rgb(160, 160, 32);
+    }
+
+    .modal-header {
+      border-bottom: none;
+    }
+    
+    .modal-content {
+      color: antiquewhite;
+      background-color: #000000d4;
+      border: 1px solid rgb(160, 160, 32);
+      border-radius: var(--bs-modal-border-radius);
+    }
+
+    .modal-content a:link {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    .modal-content a:visited {
+      color : rgb(69 121 157);
+      text-decoration : none;
+    }
+
+    .modal-content a:hover {
+      color : rgb(69 121 157);
+      text-decoration : underline;
+    }
+
+    .modal-footer {
+      border-top: none;
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <header class="row text-center py-5 justify-content-around align-items-center">
+        <div class="col-8">
+          <h1><span style="color:rgb(160, 160, 32);">L</span>a <span style="color:rgb(160, 160, 32);">T</span>eam <span style="color:rgb(160, 160, 32);">P</span>anda</h1>
+          <span>Des addons pour WoW faits par des pandarens pour les aventuriers.</span>
+        </div>
+        <div class="col-4">
+          <a href="https://twitter.com/alexisamand"><i class="bi bi-twitter-x fs-3 mx-2"></i></a>
+          <a href="#"><i class="bi bi-facebook fs-3 mx-2"></i></a>
+          <a href="#"><i class="bi bi-bluesky fs-3 mx-2"></i></a>
+        </div>
+      </header>
+
+      <section>
+
+        <article class="mb-4">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mt-4 pb-2">Feet of Azeroth</h2>
+            </div>
+          </div>
+          <div class="row justify-content-around align-items-center">
+            <div class="col-5">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
+                  <div class="carousel-item active">
+                    <img src="assets/img/feet-of-azeroth-01.jpg" alt="Feet of Azeroth 1" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/feet-of-azeroth-02.jpg" alt="Feet of Azeroth 2" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/feet-of-azeroth-03.jpg" alt="Feet of Azeroth 3" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-5">
+              <p>Feet of Azeroth est petit compagnon de voyage pour Azeroth. Affichez vos coordonnées actuelles et suivez la distance que vous avez parcourue dans l'univers de Warcraft.</p>
+              <p><strong>version:</strong> 0.8.1<br />
+              <strong>compatibilité:</strong> classic<br />
+              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/feet-of-azeroth">CurseForge</a><br />
+              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/FeetOfAzeroth">GitHub</a></p>
+            </div>
+          </div>
+        </article> 
+
+        <hr style="color:rgb(160, 160, 32);width:100%;">
+
+        <article class="mb-4">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mt-4 pb-2">Gasp of Pandaria</h2>
+            </div>
+          </div>
+          <div class="row justify-content-around align-items-center">
+            <div class="col-5">
+              <p>Gasp of Pandaria est un mini-jeu léger et relaxant inspiré de l'esthétique apaisante de Pandaria. Il propose des grilles de puzzle dans 3 niveaux, conçues pour des parties rapides et agréables entre deux quêtes, donjons ou raids.</p>
+              <p><strong>version:</strong> X.Y.Z<br />
+              <strong>compatibilité:</strong> classic<br />
+              <strong>téléchargement:</strong> <a href="#">CurseForge</a><br />
+              <strong>dépôt:</strong> <a href="#">GitHub</a></p>
+            </div>
+            <div class="col-5">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
+                  <div class="carousel-item active">
+                    <img src="assets/img/gasp-of-pandaria-01.jpg" alt="Feet of Azeroth 1" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/gasp-of-pandaria-02.jpg" alt="Feet of Azeroth 2" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/gasp-of-pandaria-03.jpg" alt="Feet of Azeroth 3" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <hr style="color:rgb(160, 160, 32);width:100%;">
+        
+        <article class="mb-4">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mt-4 pb-2">Traveler's Notebook</h2>
+            </div>
+          </div>
+          <div class="row justify-content-around align-items-center">
+            <div class="col-5">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
+                  <div class="carousel-item active">
+                    <img src="assets/img/travelers-notebook-01.jpg" alt="Feet of Azeroth 1" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/travelers-notebook-02.jpg" alt="Feet of Azeroth 2" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/travelers-notebook-03.jpg" alt="Feet of Azeroth 3" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-5">
+              <p>Quand je joue à World of Warcraft, j'ai souvent un vrai carnet à portée de main pour noter des informations utiles : emplacements des PNJ, quêtes, idées et tout ce que je ne veux pas oublier. Traveler's Notebook transpose cette habitude directement dans le jeu.</p>
+              <p><strong>version:</strong> X.Y.Z<br />
+              <strong>compatibilité:</strong> XX, XX<br />
+              <strong>téléchargement:</strong> <a href="#">CurseForge</a><br />
+              <strong>dépôt:</strong> <a href="#">GitHub</a></p>
+            </div>
+          </div>
+        </article>
+
+        <hr style="color:rgb(160, 160, 32);width:100%;">
+
+        <article class="mb-4">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mt-4 pb-2">Wisdom of Azeroth</h2>
+            </div>
+          </div>
+          <div class="row justify-content-around align-items-center">
+            <div class="col-5">
+              <p>Wisdom of Azeroth est un add-on léger pour World of Warcraft qui affiche un proverbe aléatoire sur le thème d'Azeroth lorsque vous vous connectez.</p>
+              <p><strong>version:</strong> X.Y.Z<br />
+              <strong>compatibilité:</strong> XX, XX<br />
+              <strong>téléchargement:</strong> <a href="#">CurseForge</a><br />
+              <strong>dépôt:</strong> <a href="#">GitHub</a></p>
+            </div>
+            <div class="col-5">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
+                  <div class="carousel-item active">
+                    <img src="https://placehold.co/600x400?text=Feet+Of+Azeroth+1" alt="Feet of Azeroth 1" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placehold.co/600x400?text=Feet+Of+Azeroth+2" alt="Feet of Azeroth 2" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placehold.co/600x400?text=Feet+Of+Azeroth+3" alt="Feet of Azeroth 3" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+
+      <footer class="mt-5 py-4 row justify-content-around align-items-center">
+          <div class="col-6 text-center">
+            <h3>La Team Panda</h3>
+            <p>Nous sommes une petite équipe de développeurs passionnés par <a href="https://www.instant-gaming.com/?igr=gamer-ee4499">World of Warcraft</a> et par les petits outils qui rendent la vie des aventuriers un peu plus agréable. Bon… Equipe est peut-être un grand mot. Pour l'instant, il y a surtout un pandaren derrière le clavier.</p>
+          </div>
+          <div class="col-6 text-center">
+            <ul>
+              <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</a></li>
+              <li class="list-group-item"><a href="#">Soutenir via Paypal</a></li>
+              <li class="list-group-item"><a href="#">Profil Curseforge</a></li>
+              <li class="list-group-item"><a href="#">Mentions légales</a></li>
+          </ul>
+          </div>    
+          <div class="col-12">
+            <div class="text-secondary small text-center pt-5">
+              © 2026 Alexis AMAND – Tous droits réservés.<br>
+              Fait avec ❤️ dans les Hauts-de-France.<br>
+              Version 0.2 — Mis à jour le 11/09/2025
+            </div>
+          </div>
+
+      </footer> 
+
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Une question ? Écrivez-nous</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <strong>mail:</strong> <a href="#">alexis.amand@gmail.com</a><br />
+            <strong>twitter:</strong> <a href="#">https://twitter.com/alexisamand</a><br />
+            <strong>mail:</strong> <a href="#">alexis.amand@gmail.com</a><br />
+            <strong>mail:</strong> <a href="#">alexis.amand@gmail.com</a><br />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary mx-auto" data-bs-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
