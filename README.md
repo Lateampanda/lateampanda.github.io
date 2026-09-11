@@ -21,3 +21,7 @@ While playing World of Warcraft, I often keep a real notebook next to me to writ
 ## Wisdom of Azeroth
 
 **Wisdom of Azeroth** is a lightweight World of Warcraft flavor addon that displays a random Azeroth-themed proverb when you log in.
+
+## Thanks
+
+* https://www.deviantart.com/thekathik/art/Pandaren-Monk-Icon-700000671
