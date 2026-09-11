@@ -1,31 +1,50 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>La Team Panda — Addons World of Warcraft</title>
+    <title>La Team Panda – Addons World of Warcraft faits par des pandarens</title>
+    <meta name="content" description="La Team Panda développe des addons WoW légers et immersifs : Feet of Azeroth, Gasp of Pandaria, Traveler’s Notebook et Wisdom of Azeroth.">
+>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://fonts.cdnfonts.com/css/warcraft" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setExcludedReferrers", ["histoiresdepoilus.test\/"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//matomo.boitasite.com/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '14']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+
   </head>
 
   <body>
 
-    <div class="container">
+    <div class="container main">
 
-      <header class="row text-center py-5 justify-content-around align-items-center">
-        <div class="col-8">
+      <header class="row text-center py-3 justify-content-around align-items-center">
+        <div class="col-9">
           <h1><span style="color:rgb(160, 160, 32);">L</span>a <span style="color:rgb(160, 160, 32);">T</span>eam <span style="color:rgb(160, 160, 32);">P</span>anda</h1>
           <span>Des addons pour WoW faits par des pandarens pour les aventuriers.</span>
         </div>
-        <div class="col-4">
-          <a href="https://twitter.com/alexisamand"><i class="bi bi-twitter-x fs-3 mx-2"></i></a>
-          <a href="https://www.facebook.com/alexisamand"><i class="bi bi-facebook fs-3 mx-2"></i></a>
-          <a href="https://bsky.app/profile/alexisamand.bsky.social"><i class="bi bi-bluesky fs-3 mx-2"></i></a>
+        <div class="col-3">
+          <a href="https://twitter.com/alexisamand" alt=" " target="_blank"><i class="bi bi-twitter-x fs-3 mx-2"></i></a>
+          <a href="https://www.facebook.com/alexisamand" alt=" " target="_blank"><i class="bi bi-facebook fs-3 mx-2"></i></a>
+          <a href="https://bsky.app/profile/alexisamand.bsky.social" alt=" " target="_blank"><i class="bi bi-bluesky fs-3 mx-2"></i></a>
         </div>
       </header>
 
@@ -39,28 +58,28 @@
           </div>
           <div class="row justify-content-around align-items-center">
             <div class="col-5">
-              <div id="carouselExampleIndicators" class="carousel slide">
+              <div id="carouselFeet" class="carousel slide">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselFeet" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselFeet" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselFeet" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
                   <div class="carousel-item active">
-                    <img src="assets/img/feet-of-azeroth-01.jpg" alt="Feet of Azeroth 1" class="d-block w-100">
+                    <img src="assets/img/feet-of-azeroth-01.webp" alt="Feet of Azeroth 1" class="d-block w-100">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/feet-of-azeroth-02.jpg" alt="Feet of Azeroth 2" class="d-block w-100">
+                    <img src="assets/img/feet-of-azeroth-02.webp" alt="Feet of Azeroth 2" class="d-block w-100">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/feet-of-azeroth-03.jpg" alt="Feet of Azeroth 3" class="d-block w-100">
+                    <img src="assets/img/feet-of-azeroth-03.webp" alt="Feet of Azeroth 3" class="d-block w-100">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeet" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFeet" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -70,8 +89,8 @@
               <p>Feet of Azeroth est petit compagnon de voyage pour Azeroth. Affichez vos coordonnées actuelles et suivez la distance que vous avez parcourue dans l'univers de Warcraft.</p>
               <p><strong>version:</strong> 0.8.1<br />
               <strong>compatibilité:</strong> classic<br />
-              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/feet-of-azeroth">CurseForge</a><br />
-              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/FeetOfAzeroth">GitHub</a></p>
+              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/feet-of-azeroth" alt=" " target="_blank">CurseForge</a><br />
+              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/FeetOfAzeroth" alt=" " target="_blank">GitHub</a></p>
             </div>
           </div>
         </article> 
@@ -87,34 +106,34 @@
           <div class="row justify-content-around align-items-center">
             <div class="col-5">
               <p>Gasp of Pandaria est un mini-jeu léger et relaxant inspiré de l'esthétique apaisante de Pandaria. Il propose des grilles de puzzle dans 3 niveaux, conçues pour des parties rapides et agréables entre deux quêtes, donjons ou raids.</p>
-              <p><strong>version:</strong> X.Y.Z<br />
-              <strong>compatibilité:</strong> classic<br />
-              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/gasp-of-pandaria">CurseForge</a><br />
-              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/GaspOfPandaria">GitHub</a></p>
+              <p><strong>version:</strong> 0.13.2<br />
+              <strong>compatibilité:</strong> classic, retail<br />
+              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/gasp-of-pandaria" alt=" " target="_blank">CurseForge</a><br />
+              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/GaspOfPandaria" alt=" " target="_blank">GitHub</a></p>
             </div>
             <div class="col-5">
-              <div id="carouselExampleIndicators" class="carousel slide">
+              <div id="carouselGasp" class="carousel slide">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselGasp" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselGasp" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselGasp" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
                   <div class="carousel-item active">
-                    <img src="assets/img/gasp-of-pandaria-01.jpg" alt="Feet of Azeroth 1" class="d-block w-100">
+                    <img src="assets/img/gasp-of-pandaria-01.webp" alt="Feet of Azeroth 1" class="d-block w-100">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/gasp-of-pandaria-02.jpg" alt="Feet of Azeroth 2" class="d-block w-100">
+                    <img src="assets/img/gasp-of-pandaria-02.webp" alt="Feet of Azeroth 2" class="d-block w-100">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/gasp-of-pandaria-03.jpg" alt="Feet of Azeroth 3" class="d-block w-100">
+                    <img src="assets/img/gasp-of-pandaria-03.webp" alt="Feet of Azeroth 3" class="d-block w-100">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGasp" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGasp" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -133,28 +152,28 @@
           </div>
           <div class="row justify-content-around align-items-center">
             <div class="col-5">
-              <div id="carouselExampleIndicators" class="carousel slide">
+              <div id="carouselTraveler" class="carousel slide">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselTraveler" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselTraveler" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselTraveler" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
                   <div class="carousel-item active">
-                    <img src="assets/img/travelers-notebook-01.jpg" alt="Feet of Azeroth 1" class="d-block w-100">
+                    <img src="assets/img/travelers-notebook-01.webp" alt="Feet of Azeroth 1" class="d-block w-100">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/travelers-notebook-02.jpg" alt="Feet of Azeroth 2" class="d-block w-100">
+                    <img src="assets/img/travelers-notebook-02.webp" alt="Feet of Azeroth 2" class="d-block w-100">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/travelers-notebook-03.jpg" alt="Feet of Azeroth 3" class="d-block w-100">
+                    <img src="assets/img/travelers-notebook-03.webp" alt="Feet of Azeroth 3" class="d-block w-100">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTraveler" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTraveler" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -162,10 +181,10 @@
             </div>
             <div class="col-5">
               <p>Quand je joue à World of Warcraft, j'ai souvent un vrai carnet à portée de main pour noter des informations utiles : emplacements des PNJ, quêtes, idées et tout ce que je ne veux pas oublier. Traveler's Notebook transpose cette habitude directement dans le jeu.</p>
-              <p><strong>version:</strong> X.Y.Z<br />
-              <strong>compatibilité:</strong> XX, XX<br />
-              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/travelers-notebook">CurseForge</a><br />
-              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/TravelersNotebook">GitHub</a></p>
+              <p><strong>version:</strong> 0.8.1<br />
+              <strong>compatibilité:</strong> classic, retail<br />
+              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/travelers-notebook" alt=" " target="_blank">CurseForge</a><br />
+              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/TravelersNotebook" alt=" " target="_blank">GitHub</a></p>
             </div>
           </div>
         </article>
@@ -181,34 +200,34 @@
           <div class="row justify-content-around align-items-center">
             <div class="col-5">
               <p>Wisdom of Azeroth est un add-on léger pour World of Warcraft qui affiche un proverbe aléatoire sur le thème d'Azeroth lorsque vous vous connectez.</p>
-              <p><strong>version:</strong> X.Y.Z<br />
-              <strong>compatibilité:</strong> XX, XX<br />
-              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/wisdom-of-azeroth">CurseForge</a><br />
-              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/WisdomOfAzeroth">GitHub</a></p>
+              <p><strong>version:</strong> 0.0.3<br />
+              <strong>compatibilité:</strong> classic<br />
+              <strong>téléchargement:</strong> <a href="https://www.curseforge.com/wow/addons/wisdom-of-azeroth" alt=" " target="_blank">CurseForge</a><br />
+              <strong>dépôt:</strong> <a href="https://github.com/AlexisAmand/Addons-for-World-of-Warcraft-Classic/tree/main/WisdomOfAzeroth" alt=" " target="_blank">GitHub</a></p>
             </div>
             <div class="col-5">
-              <div id="carouselExampleIndicators" class="carousel slide">
+              <div id="carouselWisdom" class="carousel slide">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselWisdom" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselWisdom" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselWisdom" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner" style="box-shadow: 5px 5px 10px rgba(0,0,0,0.5);">
                   <div class="carousel-item active">
-                    <img src="https://placehold.co/600x400?text=Feet+Of+Azeroth+1" alt="Feet of Azeroth 1" class="d-block w-100">
+                    <img src="https://placehold.co/600x400?text=Wisdom+Of+Azeroth+1" alt="Wisdom of Azeroth 1" class="d-block w-100">
                   </div>
                   <div class="carousel-item">
-                    <img src="https://placehold.co/600x400?text=Feet+Of+Azeroth+2" alt="Feet of Azeroth 2" class="d-block w-100">
+                    <img src="https://placehold.co/600x400?text=Wisdom+Of+Azeroth+2" alt="Wisdom of Azeroth 2" class="d-block w-100">
                   </div>
                   <div class="carousel-item">
-                    <img src="https://placehold.co/600x400?text=Feet+Of+Azeroth+3" alt="Feet of Azeroth 3" class="d-block w-100">
+                    <img src="https://placehold.co/600x400?text=Wisdom+Of+Azeroth+3" alt="Wisdom of Azeroth 3" class="d-block w-100">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselWisdom" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselWisdom" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -227,8 +246,8 @@
           <div class="col-6 text-center">
             <ul>
               <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</a></li>
-              <li class="list-group-item"><a href="#">Soutenir via Paypal</a></li>
-              <li class="list-group-item"><a href="#">Profil Curseforge</a></li>
+              <li class="list-group-item"><a href="http://buymeacoffee.com/alexisamand" alt=" " target="_blank">Buy me a coffee</a></li>
+              <li class="list-group-item"><a href="https://www.curseforge.com/members/hanslex/projects" alt=" " target="_blank">Profil Curseforge</a></li>
               <li class="list-group-item"><a href="#">Mentions légales</a></li>
           </ul>
           </div>    
@@ -252,10 +271,12 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <strong>mail:</strong> <a href="mailto:alexis.amand@gmail.com">alexis.amand@gmail.com</a><br />
-            <strong>twitter:</strong> <a href="https://twitter.com/alexisamand">https://twitter.com/alexisamand</a><br />
-            <strong>bi-bluesky:</strong> <a href="https://bsky.app/profile/alexisamand.bsky.social">https://bsky.app/profile/alexisamand.bsky.social</a><br />
-            <strong>facebook:</strong> <a href="https://www.facebook.com/alexisamand">https://www.facebook.com/alexisamand</a><br />
+            <strong>mail:</strong> <a href="mailto:alexis.amand@gmail.com" alt=" ">alexis.amand@gmail.com</a><br />
+            <strong>twitter:</strong> <a href="https://twitter.com/alexisamand" alt=" " target="_blank">https://twitter.com/alexisamand</a><br />
+            <strong>bi-bluesky:</strong> <a href="https://bsky.app/profile/alexisamand.bsky.social" alt=" " target="_blank">https://bsky.app/profile/alexisamand.bsky.social</a><br />
+            <strong>facebook:</strong> <a href="https://www.facebook.com/alexisamand" alt=" " target="_blank">https://www.facebook.com/alexisamand</a><br /><br />
+
+            <strong>Soutenir:</strong> <a href="http://buymeacoffee.com/alexisamand" alt=" " target="_blank">Buy me a coffee !</a><br />
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary mx-auto" data-bs-dismiss="modal">Fermer</button>
